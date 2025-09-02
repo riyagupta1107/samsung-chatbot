@@ -15,8 +15,8 @@ index = pinecone_client.Index(index_name)
 
 # Define categories and dataset paths
 categories = {
-    "washingmachine": "/Users/kashviaggarwal/Downloads/samsung_wm_issues.jsonl",
-    "fridge": "/Users/kashviaggarwal/Downloads/samsung_fridge.jsonl"
+    "washingmachine": "data/samsung_fridge_issues.jsonl",
+    "fridge": "data/samsung_wm_issues.jsonl"
 }
 
 # Loop through categories and upsert data into separate namespaces
